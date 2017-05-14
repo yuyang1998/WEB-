@@ -1,0 +1,19 @@
+div{
+	width:300px;
+	height:70px;
+}
+li{
+	height:35px;
+}
+#h{
+	background-image:url(images/header.png);
+	background-repeat:no-repeat;
+}
+#l{
+	background-image:url(images/bj.png);
+	background-repeat:no-repeat;
+}
+.m{
+	background-image:url(images/baibiaoti.png);
+	background-repeat:no-repeat;
+}
