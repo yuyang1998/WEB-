@@ -7,6 +7,7 @@ div{
 	background-position: 90%;
 }
 a:link{text-decoration: none;font-family:"黑体";color:white;}
+a:hover{color:orange;}
 ul{
 	height:35px;
 }
@@ -20,6 +21,6 @@ li{
 #menue{
 	color:green;
 }
-#specil{
+#sp{
 	color:yellow;
 }
