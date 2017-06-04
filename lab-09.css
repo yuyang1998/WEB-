@@ -1,7 +1,7 @@
 
 a:link{text-decoration: none;color:#522a06;}
 a:hover{color:#f9f603;text-decoration:underline;}
-li{float:left;}
+li{float:left;color:white;}
 body{font-size: 12px;padding: 0;font-family: "宋体";color:#522a06;}
 #header{
 	margin: center;
@@ -9,6 +9,7 @@ body{font-size: 12px;padding: 0;font-family: "宋体";color:#522a06;}
 	height: 205px;
 	background-image: url(images/bg.gif);
 	background-repeat: no-repeat;
+	color:white;
 }
 #banner{
 	margin: center;
