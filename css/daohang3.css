@@ -1,0 +1,26 @@
+div{
+	width:1500px;
+	height:35px;
+	margin:0 auto;
+	margin-top: 5px;
+	background-image:url(images/bg.gif);
+	background-position: 90%;
+}
+a:link{text-decoration: none;font-family:"黑体";color:white;}
+a:hover{color:orange;}
+ul{
+	height:35px;
+}
+li{
+	padding:0 10px;
+	line-height: 35px;
+	width:100px;
+	list-style-type:none;
+	float:left;
+}
+#menue{
+	color:green;
+}
+#sp{
+	color:yellow;
+}

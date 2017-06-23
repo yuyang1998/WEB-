@@ -1,0 +1,227 @@
+*{
+		margin: 0 auto;padding: 0;color: #522a06;
+		font-size: 12px;font-family: '宋体';
+	}
+	ul li{
+		list-style-type: none;
+	}
+	a:link{text-decoration: none;color: #522a06;
+	}
+	a:hover{text-decoration: underline;
+	}
+	#wrap{
+		margin: 0 auto;
+		background-image: url(images/bodybg.gif);
+	}
+	#header{
+		height: 205px;
+		background-image: url(images/bg.gif) ;
+	}
+	#banner{
+		width: 1000px;height: 127px;
+		background-position: center left;
+		padding-top: 38px;
+		padding-left: 25px;
+	}
+	#nav{
+		height: 40px;
+		background-image: url(images/nav.jpg);
+	}
+	#nav_body{
+		width: 1000px;
+		position: center center;
+	}
+	#nav_content{
+		width: 700px;
+		float: left;
+
+	}
+	#nav_content ul li{
+		list-style-type: none;
+	}
+	#nav_content ul li a{
+		display: block;
+		float: left;
+		color: #fff;
+		font-weight:bolder; ;
+		margin-top: 10px;
+		padding: 0px 10px 0px 10px;
+		font-size: 12px;
+		border-left: 1px solid #fff;
+		height: 15px;
+	}
+
+	#nav_content ul li a:hover{
+		color: #f9f603;
+	}
+	#shouye a:link{
+		color: #f9f603;
+		border-left: none;
+	}
+	#shouye a:visited{
+		color: #f9f603;
+	}
+	.nav_search{
+		width: 300px;
+		height: 40px;
+		margin-left: 750px;
+	}
+	#text{
+		width: 140px;height: 19px
+		background-color:#f8f5ee;
+		margin-top: 8PX;
+	}
+	#button{
+		width: 44px;
+		height: 21px;
+		background-color: #000;
+		color: #fff;
+		border: 1px solid #f8f5ee;
+		margin-top: 8px;
+	}
+	#content{
+		width: 1000px;
+	}
+    #content1{
+    	line-height: 40px;
+    	margin-left: 20px;
+
+    }
+    #left{
+    	width: 200px;
+    	float: left;
+    }
+    #left_top{
+    	height: 230px;
+    	background-image: url(images/bg.png);
+    	border: 1px solid #c9baa5;
+    }
+    #top_pic{
+    	height: 55px;
+    	background-image: url(images/pxdt.png);
+    	background-repeat: no-repeat;
+    	background-position: center;
+    }
+    #left_top ul li a{
+    	width: 200px;
+    	height: 30px;
+    	line-height: 30px;
+    	text-align: center;
+    	font-weight: bolder;
+    	float: left;
+    }
+    #left_top ul li a:hover{
+    	height: 30px;
+    	background-image: url(images/menubg.gif);
+    	color: red;
+    	text-decoration: none;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    }
+    #left_center{
+    	margin-top: 20px;
+    	height: 180px;
+    	background-image: url(images/bg.png);
+    	border: 1px solid #c9baa5;
+    }
+    #center_pic{
+    	height: 30px;
+    	background-image: url(images/news.png);
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	margin-bottom: 10px;
+    	margin-top: 10px;
+    }
+    #left_center ul li a{
+    	width: 200px;
+    	height: 30px;
+    	line-height: 30px;
+    	text-align: center;
+    	float: left;
+    }
+    #left_bottom{
+    	height: 64px;
+    	background-image: url(images/tel.gif);
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	margin-top: 20px;
+    }
+    #right{
+    	width: 800px;
+    	float: left;
+    }
+    #right_pic{
+    	height: 45px;
+    	background-image: url(images/listtitle.png);
+    	background-position: center;
+    	background-repeat: no-repeat;
+    }
+    #title{
+    	float: left;
+    	font-size: 22px;
+    	color: #b22222;
+    	margin-left: 80px;
+    	margin-top:9px;
+    }
+    .time{
+    	float:right;
+    	line-height: 30px;
+    }
+    #list ul li {
+    	width: 730px;
+    	line-height: 30px;
+    	margin-left: 40px;
+    	list-style-type: disc;
+    }
+    #num{
+    	margin-left: 200px;
+    }
+    .num a{
+    	border: 1px solid  #c9baa5;
+    	float: left;
+    	padding: 5px 10px;
+    	line-height: 10px;
+    	margin-left: 10px;
+    }
+
+    .num1 a{
+    	float: left;
+    	padding: 5px;
+    	line-height: 10px;
+    	margin-left: 5px
+    }
+
+
+	#footer{
+		width: 1000px;
+		height: 105px;
+		clear: both;
+		background-image: url(images/foot.gif);
+		background-repeat: no-repeat;
+		position:relative;
+		left: 0px;
+		bottom: 0px;
+	}
+	#foot_content{
+		height:50px;
+		margin-left: 240px;
+	}
+	#lianjie{
+		height: 20px;
+		padding: 15px 5px;
+	}
+	#lianjie ul li {
+		height: 20px;
+		display: block;
+		float: left;
+		font-weight: bolder;
+	}
+	#hr{
+		height: 1px;
+		background-image: url(images/line.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#foot_content2{
+		text-align: center;
+	}

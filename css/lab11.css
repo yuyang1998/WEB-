@@ -1,0 +1,22 @@
+div.image img{
+	opacity: 0.5;
+	display: inline;
+	margin: 3px;
+	border:1px solid #bebebe;
+	width: 200px;
+	height: 160;
+}
+div.image a:hover img{
+	border: 1px solid #333333;
+	opacity: 1;
+}
+.image{
+	float: left;
+}
+.desc{
+	height:20px;
+	border-top: 0px;
+	text-align: center;
+	background-color: #ffffff;
+	border:1px solid #bebebe;
+}

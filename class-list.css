@@ -1,0 +1,170 @@
+a:link{text-decoration: none;}
+a:hover{text-decoration: underline;}
+body{padding: 0;font-family: "宋体";color:#522a06;}
+#daohangtiao a:hover{text-decoration: underline;background-color:#9d2933;}
+#body{
+	width: 1500px;
+	height:1107px;
+	margin: auto;
+}
+#daohang{
+	width: 1500px;
+	height: 234px;
+	background-image: url(images/banner.png);
+	background-repeat: no-repeat;
+}
+#logo{
+	width: 200px;
+	height:200px;
+}
+#daohangtiao {
+	font-size: 15px;
+	float: left;
+	height: 35px;
+	width: 1500px;
+	background-color: #c32136;
+	line-height:10px;
+	font-family: "宋体";
+}
+#daohang ul li {
+	list-style-type:none;
+	float: left;
+}
+#anniu{
+	width:20px;
+	height: 20px;
+	float:left;
+	position: relative;
+	left: 50px;
+	bottom:10px;
+}
+#denglu{
+	width: 20px;
+	height: 20px;
+	float:left;
+	position: relative;
+	left:100px;
+	bottom:10px;
+}
+#sousuo{
+	width: 50px;
+	height: 20px;
+	border:1px solid red;
+	float: left;
+	position: relative;
+	bottom: 10px;
+}
+#content{
+	position: absolute;
+	right: 15%;
+	left: 15%;
+	height:875px;
+	width: 1056px;
+	border:1px solid #e9e7ef;
+}
+#content-left{
+	width: 700px;
+	height: 800px;
+	border: 1px solid #e9e7ef;
+	float: left;
+}
+#lishi{
+	width: 700px;
+	height: 50px;
+	text-align:left;
+	border:1px solid #e9e7ef;
+}
+#lishi-ul{
+	line-height: 30px;
+	width: 700px;
+	height:750px;
+	font-size: 16px;
+	font-family: "宋体";
+}
+.ziti{font-size: 12px;}
+#yema{
+	width:500px;
+	height:20px;
+	text-align: center;
+	padding-left:150px;padding-top: 10px;
+}
+.fangge{width: 10px;height: 20px;margin:10px;border:1px solid #e9e7ef;float: left;}
+.san{height: 20px;width: 40px;float: left;}
+#xiaye{
+	width:40px;
+	 height:20px; 
+	 border: 1px solid #e9e7ef;
+	 float: left;
+	 position: relative;
+	 top:10px;
+}
+#weiye{
+	width:40px;
+	 height:20px; 
+	 border: 1px solid #e9e7ef;
+	 float: left;
+	 position: relative;
+	 top:10px;
+}
+#content-right{
+	width:352px;
+	height:875px;
+	border: 1px solid #e9e7ef;
+	float: left;
+}
+#jinridianji{
+	width: 349px;
+	height:37px;
+	border:1px solid #e9e7ef;
+	background-image: url(images/jinri.png);
+	background-repeat: no-repeat;
+	background-color: #e9e7ef;
+}
+#jinri-ul{
+	width: 350px;
+	height: 252px;
+	border:1px solid #e9e7ef;
+	font-size: 15px;
+	line-height: 30px;
+}
+#benzhoudianji{
+	width: 349px;
+	height:37px;
+	border:1px solid #e9e7ef;
+	background-image: url(images/benzhou.png);
+	background-repeat: no-repeat;
+	background-color: #e9e7ef;
+}
+#benzhou-ul{
+	width: 350px;
+	height: 252px;
+	border:1px solid #e9e7ef;
+	font-size: 15px;
+	line-height: 30px;
+}
+#benyuedianji{
+	width: 349px;
+	height:37px;
+	border:1px solid #e9e7ef;
+	background-image: url(images/benzhou.png);
+	background-repeat: no-repeat;
+	background-color: #e9e7ef;
+}
+#benyue-ul{
+	width: 350px;
+	height: 252px;
+	border:1px solid #e9e7ef;
+	font-size: 15px;
+	line-height: 30px;
+}
+#bott{
+	width: 1500px;
+	height:150px;
+	border: 1px solid #e9e7ef;
+	float: left;
+	position: relative;
+	top:875px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 40px;
+}

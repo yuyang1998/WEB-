@@ -1,0 +1,11 @@
+body{font-size: 14px;}
+ul{list-style-type: none;float: left;}
+a:link{text-decoration: none;}
+a{color:#c2ccd0;}
+a:hover{background-color:#00bc12}
+#content{
+	width: 106px;
+	background-color: gray;
+	border-bottom: 1px solid black;
+
+}
