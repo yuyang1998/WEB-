@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>个人信息页面</title>
+		<link rel="icon" href="img/young7.png"/>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script>
+			$('#email').autocomplete({
+				//获取用户输入的内容，绑定数据源
+				source:function(request,response){
+					var hosts=['@qq.com','@163.com','@126.com','@sina.com','@yahoo.com'],
+						term=request.term,   //获取用户输入内容
+						name=term,           //邮箱用户名
+						host='',			 //邮箱域名
+						ix=term.indexOf('@'),//@的位置
+						result=[],           //最终呈现邮箱列表
+					//当有@的时候，重新分配用户名和域名
+					if(ix > -1){
+						name=term.slice(0,'ix');
+						host=term.slice(ix+1);
+
+					}
+					if(name){
+						//如果用户已经输入@和后面的域名，那么就找到相关的域名提示
+						//如果用户还没有输入@和后面的域名，那么就把所有的域名都提示出来
+						var findedHosts=[];
+						if(host){
+							$.grep(hosts,function(value,index){
+								 return value.indexOf(host)>-1
+							});
+						}else{
+							findedHosts=hosts;
+						}
+						var findedResult=$.map(findedHosts,function(value,index){
+							return name+'@'+value;
+						});
+						result=findedResult;
+					}	
+				},
+			});
+		</script>
+		<style>
+			#c1{color: red;}
+			#c2{color: red;}
+			.wid{
+				width: 400px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>请填写个人信息</h1>
+		<fieldset class="wid">
+			<legend>基本信息
+			</legend>
+			姓名：<input type="text" name="name" placeholder="请输入姓名">
+			<span id="c1">*</span>
+			<br>
+			年龄：<input type="number" name="age" min="18" max="100"/>
+		</fieldset>
+		<fieldset class="wid">
+			<legend>你想在哪里收到邮件
+			</legend>
+			邮箱：<input type="email" id="email"  name="email" autocomplete="on" placeholder="请输入邮箱"/>
+			<span id="c2">*</span>
+		</fieldset>
+		<fieldset class="wid">
+			<legend>收入情况
+			</legend>
+			月收入：<input type="text" name="salary" list="salary"/>
+			<datalist id="salary">
+				<option>5k</option>
+				<option>10k</option> 
+				<option>15k</option>
+				<option>20k</option>
+			</datalist><br/>
+			银行卡<input type="text" name="card" />有效期<input type="date" name="date">
+		</fieldset>
+		<fieldset class="wid">
+			<legend>选取提交文件
+			</legend>
+			文件<input type="file" name="file">
+		</fieldset>
+		<input type="submit">
+	</body>
+</html>
